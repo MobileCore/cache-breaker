@@ -35,6 +35,6 @@
         "break"
     ],
     "dependencies": {
-        "grunt-cache-breaker": "git+https://github.com/MobileCore/cache-breaker.git#master"
+        "grunt-cache-breaker": "git+https://github.com/MobileCore/cache-breaker-tasks.git#master"
     }
 }
