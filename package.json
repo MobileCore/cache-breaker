@@ -1,0 +1,40 @@
+{
+    "name": "grunt-cache-breaker",
+    "description": "Simple cache-breaker, appends a timestamp or md5 hash to any urls",
+    "version": "1.0.2",
+    "homepage": "https://github.com/MobileCore/cache-breaker",
+    "author": {
+        "name": "MobileCore",
+        "email": "ironsource.mobile@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/MobileCore/cache-breaker.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MobileCore/cache-breaker/issues"
+    },
+    "main": "Gruntfile.js",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "grunt"
+    },
+    "devDependencies": {
+        "grunt-contrib-jshint": "~0.1.1",
+        "grunt-contrib-clean": "~0.4.0",
+        "grunt-contrib-nodeunit": "~0.1.2",
+        "grunt": "~0.4.1"
+    },
+    "keywords": [
+        "gruntplugin",
+        "cache",
+        "bust",
+        "buster",
+        "break"
+    ],
+    "dependencies": {
+        "cache-breaker": "git+https://github.com/MobileCore/cache-breaker.git#master"
+    }
+}
